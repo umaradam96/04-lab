@@ -28,9 +28,9 @@ main {
 section {
   font-size: 1em;
   background: #888;
-  width: 22%;
+ /* width: 22%;*/
   margin: 1em 1% 1em 1%;
-  display: inline-block;
+ /* display: inline-block;*/
 }
 section:hover {
   background: #666;

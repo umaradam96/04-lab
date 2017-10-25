@@ -9,6 +9,15 @@
 
 /* FIRST BREAKPOINT (MEDIUM SIZE) */
 @media screen and (min-width: 500px) {
+  body {
+	  background: red;
+  }
+  section {
+	  width: 44%;
+	  display: inline-block;
+}
+  
+  
   /* 
     - applies to screens larger than 499px (unless specifically overwritten these styles will also apply to screens larger than 999px)
     - add any hover states here
@@ -23,6 +32,12 @@
 
 /* SECOND BREAKPOINT (DESKTOP SIZE) */
 @media screen and (min-width: 1000px) {
+	body {
+		background: orange;
+	}
+	section {
+	  width: 22%;
+}
   /*
     - applies to screens larger than 999px only
     - add a max-width to your main section

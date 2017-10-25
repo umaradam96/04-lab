@@ -5,7 +5,14 @@
   - if you leave the width off, sections will automatically fill the full page width
   - no margins and little or no padding
 */
-
+section {
+  font-size: 1em;
+  background: #888;
+  margin: 1em 1% 1em 1%;
+}
+section:hover {
+	background: white;
+}
 
 /* FIRST BREAKPOINT (MEDIUM SIZE) */
 @media screen and (min-width: 500px) {
